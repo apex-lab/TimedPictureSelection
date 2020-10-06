@@ -1,2 +1,2 @@
 # TimedPictureSelection
-Two pictures side-by-side while a sentence unfolds: use the verb's tense for early picture selection
+select videos that best matches the description
