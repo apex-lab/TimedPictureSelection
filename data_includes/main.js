@@ -94,6 +94,7 @@ Template( variable =>
     //,
     newVideo("gesture_key",variable.ImageFile)
         .size(400,400)
+        .settings.disable(0.01)
         .play("loop")
     ,
     newCanvas("alien",400,400)
