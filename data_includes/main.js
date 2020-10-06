@@ -28,23 +28,27 @@ newTrial( "welcome" ,
     ,
     newText("<p>Please enter your ID and then click the button below to start the experiment.</p>")
     ,
-    newImage("1","alien1.mp4")
-         .size(100,100)
+    newVideo("1","alien1.mp4")
+         .size(200,200)
+         .play()
     ,
-    newImage("2","alien2.mp4")
-         .size(100,100)
+    newVideo("2","alien2.mp4")
+         .size(200,200)
+         .play()
     ,
-    newImage("3","alien3.mp4")
-         .size(100,100)
+    newVideo("3","alien3.mp4")
+         .size(200,200)
+         .play()
     ,
-    newImage("4","alien4.mp4")
-         .size(100,100)
+    newVideo("4","alien4.mp4")
+         .size(200,200)
+         .play()
     ,
-    newCanvas(200,200)
+    newCanvas(400,400)
          .add(   0 , 0 , getImage("1") )
-         .add(   100 , 0 , getImage("2") )
-         .add(   0 , 100 , getImage("3") )
-         .add(   100 , 100 , getImage("4") )
+         .add(   200 , 0 , getImage("2") )
+         .add(   0 , 200 , getImage("3") )
+         .add(   200 , 200 , getImage("4") )
          .print()
     ,
     newTextInput("inputID")
@@ -89,10 +93,10 @@ Template( variable =>
         //.play()
     //,
     newVideo("gesture_key",variable.ImageFile)
-        .size(200,200)
+        .size(400,400)
         .play("loop")
     ,
-    newCanvas("alien",200,200)
+    newCanvas("alien",400,400)
         .add(   0 , 0 , getVideo("gesture_key") )
         .print()
     ,
