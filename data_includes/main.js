@@ -45,10 +45,10 @@ newTrial( "welcome" ,
          .play()
     ,
     newCanvas(400,400)
-         .add(   0 , 0 , getImage("1") )
-         .add(   200 , 0 , getImage("2") )
-         .add(   0 , 200 , getImage("3") )
-         .add(   200 , 200 , getImage("4") )
+         .add(   0 , 0 , getVideo("1") )
+         .add(   200 , 0 , getVideo("2") )
+         .add(   0 , 200 , getVideo("3") )
+         .add(   200 , 200 , getVideo("4") )
          .print()
     ,
     newTextInput("inputID")
