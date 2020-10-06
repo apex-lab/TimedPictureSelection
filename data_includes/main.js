@@ -12,28 +12,32 @@ newTrial( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>In this experiment, you will first see four different kinds of aliens. </p>")
+    newText("<p>In this experiment, you will first see an alien moving in four different kinds of ways. </p>")
     ,
     newText("<p>Press <strong> [w] [a] [s] [d] </strong>to catch these aliens as quickly as possible.</p>")
     ,
-    newText("<p>For the <strong>green</strong> alien, press <strong>[w]</strong>; for <strong>blue</strong>, press <strong>[a]</strong>; </p>")
+    newText("<p>For aliens moving <strong>from middle left to middle right </strong>(shown in the upper left video), press <strong>[w]</strong>; </p>")
     ,
-    newText("<p>for <strong>pink</strong>, press <strong>[s]</strong>; for <strong>yellow</strong>, press <strong>[d]</strong>. </p>")
+    newText("<p>For aliens moving <strong>from lower left to upper right </strong>(shown in the upper right video), press <strong>[a]</strong>;</p>")
+    ,
+    newText("<p>For aliens moving <strong>from upper left, down to the bottom, then to upper right </strong>(shown in the lower right video), press <strong>[s]</strong>; </p>")
+    ,
+    newText("<p>For aliens moving <strong>from upper right to bottom left </strong>(shown in the lower right video), press <strong>[d]</strong>. </p>")
     ,
     newText("<p>Please get yourself familiar with the action required for catching aliens. </p>")
     ,
     newText("<p>Please enter your ID and then click the button below to start the experiment.</p>")
     ,
-    newImage("1","alien1.png")
+    newImage("1","alien1.mp4")
          .size(100,100)
     ,
-    newImage("2","alien2.png")
+    newImage("2","alien2.mp4")
          .size(100,100)
     ,
-    newImage("3","alien3.png")
+    newImage("3","alien3.mp4")
          .size(100,100)
     ,
-    newImage("4","alien4.png")
+    newImage("4","alien4.mp4")
          .size(100,100)
     ,
     newCanvas(200,200)
